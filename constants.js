@@ -1,0 +1,38 @@
+﻿const RESULTS_MAP = {
+'meta': {
+title: 'Meta Platforms (ex Facebook)',
+contents: "Meta Platforms, Inc., nota più semplicemente come Meta, è un'impresa statunitense che controlla i servizi di rete sociale Facebook e Instagram, i servizi di messaggistica istantanea WhatsApp e Messenger e sviluppa i visori di realtà virtuale Oculus Rift, fondata nel 2004 da Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz e Chris Hughes con il nome di Facebook, Inc.. La società ha assunto il nome attuale a partire dal 28 ottobre 2021.",
+},
+'google': {
+title: 'Google',
+contents: "Google LLC è un'azienda statunitense che offre servizi online, con quartier generale a Mountain View in California, nel cosiddetto Googleplex. Tra la grande quantità di prodotti o servizi offerti troviamo il motore di ricerca Google, il sistema operativo Android, il sistema operativo Chrome OS e servizi web quali YouTube, Gmail, Play Store, Google Maps e molti altri. È una delle più importanti aziende informatiche statunitensi, nonché una delle più grandi aziende a livello globale con capitalizzazione azionaria di più di un bilione di dollari (mille miliardi di dollari). Possiede oltre 70 uffici in 50 paesi e ha alle proprie dipendenze 135.301 persone. Al momento è gestita con capitali privati dove i maggiori detentori di quote sono Kleiner Perkins Caufield & Byers and Sequoia Capital. A seguito di una ristrutturazione interna, dal 5 ottobre 2015 Google è una controllata della holding Alphabet.",
+},
+'microsoft': {
+title: 'Microsoft Corporation',
+contents: "(in precedenza Micro-Soft Company, comunemente Microsoft) è un'azienda multinazionale d'informatica con sede a Redmond nello Stato di Washington (Stati Uniti). Creata da Bill Gates e Paul Allen il 4 aprile 1975, cambiò nome il 25 giugno 1981, per poi assumere nuovamente nel 1983 l'attuale denominazione. Microsoft è una delle più importanti al mondo nel settore, nonché una delle più grandi produttrici di software al mondo per fatturato, e anche una delle più grandi aziende per capitalizzazione azionaria, circa 2288 miliardi di dollari nel 2022, attualmente sviluppa, produce, supporta e vende, o concede in licenza, computer software, elettronica di consumo, personal computer e servizi; i suoi prodotti software più noti sono la linea di sistemi operativi Microsoft Windows, la suite di produttività personale Microsoft Office e i browser Internet Explorer e Edge; in ambito hardware invece i suoi prodotti più conosciuti sono la famiglia di console Xbox e i prodotti Microsoft Surface.",
+},
+'apple': {
+title: 'Apple inc.',
+contents: "Apple Inc; (chiamata in precedenza Apple Computer e nota come Apple) è un'azienda multinazionale statunitense che produce sistemi operativi, smartphone, computer e dispositivi multimediali, con sede a Cupertino, in California. La società fu fondata nel 1976 da Steve Jobs, Steve Wozniak e Ronald Wayne, a Cupertino, nella Silicon Valley, in California, per sviluppare e vendere il personal computer Apple I di Wozniak, sebbene Wayne abbia venduto la sua quota nei 12 giorni successivi. Fu incorporata come Apple Computer, Inc. a gennaio 1977 e le vendite dei suoi computer, tra cui l'Apple II, crebbero rapidamente. Nel giro di pochi anni, Jobs e Wozniak avevano assunto uno staff di progettisti di computer e avevano una linea di produzione. Apple è diventata pubblica nel 1980 con un immediato successo finanziario.",
+},
+'twitter': {
+title: 'Twitter',
+contents: "Twitter è un servizio di notizie e microblogging fornito dalla società Twitter, Inc. con sede a San Francisco (Stati Uniti), con filiali a San Antonio e Boston. Twitter, Inc. è stato originariamente creato in California ma nel 2007 è passato sotto la giurisdizione dello stato del Delaware. Da quando Jack Dorsey lo creò nel marzo 2006 e lanciò nel luglio dello stesso anno, la rete ha guadagnato popolarità in tutto il mondo; si stima abbia più di 300 milioni di utenti che generano 65 milioni di tweet al giorno e gestisca più di 800 000 richieste di ricerca giornaliere. È stato anche soprannominato \"l'SMS di Internet\".",
+},
+'netflix': {
+title: 'Netflix',
+contents: "Netflix è una società statunitense operante nella distribuzione via Internet di film, serie televisive e altri contenuti d'intrattenimento a pagamento. Fu fondata da Reed Hastings e Marc Randolph il 29 agosto 1997 a Scotts Valley, in California. Nel 2013, Netflix ha ampliato la produzione cinematografica e televisiva e la distribuzione online. La sua sede centrale è a Los Gatos, in California. Altre sedi sono state in seguito create nei Paesi Bassi, Brasile, India, Giappone, Corea del Sud, Spagna, Francia, Regno Unito, Germania e in Italia. È tra le maggiori aziende operanti nello streaming di film e serie tv, insieme a Prime Video, Disney+, Crunchyroll, HBO Max, Hulu, Paramount+ e Peacock. Nata come attività di noleggio di DVD, sebbene Hastings abbia messo da parte le vendite circa un anno dopo, e videogiochi. Gli utenti potevano prenotare i dischi via Internet, ricevendoli direttamente a casa tramite il servizio postale. Dal 2008 l'azienda ha attivato un servizio di streaming online on demand, accessibile tramite un apposito abbonamento, che è divenuto presto il suo campo d'attività principale, mentre dal 2011 il servizio di noleggio di dischi è stato scorporato, venendo offerto dalla sussidiaria Qwikster."
+},
+'tesla': {
+title: 'Tesla Motors',
+contents: "Tesla, Inc. (precedentemente Tesla Motors) è un'azienda statunitense specializzata nella produzione di auto elettriche, pannelli fotovoltaici e sistemi di stoccaggio energetico. È chiamata così in onore del noto inventore Nikola Tesla.L'obiettivo dell'azienda è quello di accelerare la transizione del mondo all'utilizzo di fonti di energia rinnovabili. Questo include la produzione di veicoli elettrici ad alte prestazioni orientati al mercato di massa. Fondata nel 2003 a San Carlos in California da Martin Eberhard e Marc Tarpenning, la società è cresciuta in organico fino a comprendere molti esperti mondiali di informatica e sistemi di calcolo, nel campo elettrico e dell'ingegneria elettrica ed elettronica. Il CEO Elon Musk ha detto che immagina Tesla come una società tecnologica e una casa automobilistica indipendente, il cui fine è quello di offrire auto elettriche a prezzi accessibili al consumatore medio per promuovere l'utilizzo di fonti rinnovabili e non inquinanti.",
+},
+'amazon': {
+title: 'Amazon',
+contents: "Amazon.com, Inc. è un'azienda di commercio elettronico statunitense, con sede a Seattle nello stato di Washington. È la più grande Internet company al mondo. Time Magazine ha proclamato Jeff Bezos, fondatore dell'azienda, Uomo dell'anno del 1999, a riconoscimento del successo di Amazon nel rendere popolare il commercio elettronico.",
+},
+'cisco': {
+title: 'Cisco systems',
+contents: "Cisco Systems Inc., nota semplicemente come Cisco, è una azienda multinazionale specializzata nella fornitura di apparati di networking. Nasce nel dicembre 1984 a San Francisco, California, da Leonard Bosack, responsabile dei computer del dipartimento di informatica della Stanford University, e da sua moglie Sandy Lerner, che gestiva i computer della Graduate School of Business. Bosack, che continua a lavorare a Stanford insieme a Kirk Lougheed, si focalizza sulla produzione di router basandosi moltissimo sul software dell'università al punto che nel luglio 1986 è costretto a dimettersi con molte polemiche.",
+}
+};

@@ -1,0 +1,93 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+:root {
+    --grid-size: 700px;
+    --padding-size: 10px;
+    --choice-size: calc(32.5% - 2* var(--padding-size));
+}
+
+.b1 {
+    background-image: url('./images/background1.png');
+}
+
+
+.b2 {
+    background-image: url('./images/background2.png');
+}
+
+
+.b3 {
+    background-image: url('./images/background3.png');
+}
+
+
+.choice-grid{
+    padding-bottom:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-grid div{
+    cursor: pointer;
+    width: var(--choice-size);
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    padding:var(--padding-size);
+    margin-top:20px;
+}
+
+.unselected{
+    opacity: 0.6;
+}
+
+.selected{
+    background-color: #cfe3ff !important;
+}
+
+.choice-grid div img{
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    header div{
+        display: none;
+    }
+
+    article{
+        width: 95%;
+    }
+}
+#result{
+    margin: 20px 0;
+    padding: 20px;
+}
+#result h1 {
+    margin:0;
+}
+
+#result p {
+    margin:18px 0;
+}
+#result button{
+    cursor: pointer;
+    height: 50px;
+    background-color: #cecece;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+#result button:hover{
+    background-color: #e0e0e0;
+}
+
+.hidden{
+    display: none;
+}
+
+@media (max-width: 500px){
+    .choice-grid div{
+        width: calc(49% - 20px);
+    }
+}
+
+
